@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__, template_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates'))
 # app.config['SECRET_KEY'] = ';lkjfdsa'
-
+server = app.server
 API_KEY = "MHgWdG6I183QDehzQpEp1ZYFmSjJqOytO8ICj7Xl"
 API_URL = "https://api.data.gov/ed/collegescorecard/v1/schools"
 
